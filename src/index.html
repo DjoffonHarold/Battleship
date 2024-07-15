@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js" defer></script>
     <title>BattleShip</title>
+    <style>
+        .board {
+          display: grid;
+          grid-template-columns: repeat(10, 1fr);
+          gap: 2px;
+        }
+        .cell {
+          width: 30px;
+          height: 30px;
+          background-color: lightblue;
+          border: 1px solid darkblue;
+        }
+      </style>
 </head>
 <body>
     <div id="player1-board" class="board"></div>
